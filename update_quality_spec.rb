@@ -214,7 +214,7 @@ describe '#update_quality' do
     end
   end
 
-  context 'Given several award' do
+  context 'Given several awards' do
     let(:awards) {
       [
         Award.new('NORMAL ITEM', 5, 10),
